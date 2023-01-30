@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body {
+	background:url(images/8.jpg);
+	background-repeat:no-repeat;
+	 background-size: cover;
+}
+thead{
+	height:50px;
+	font-size:25px;
+	font-family:LiSu;
+}
+tbody{
+	height:30px;
+	font-size:20px;
+	font-family:LiSu;
+}
+td{
+	width:auto;
+}
+
+a{
+		text-decoration:none;
+		color:black;
+		size:2px;
+		
+}
+a:hover {
+    color:red;
+    text-decoration:none;
+}
+.delete{
+	position:absolute center;
+	z-index:1;
+	background-color:grey;
+	text-align:center;
+	border-radius:30px;
+}
+.show{
+	padding-left:400px;
+	
+}
+table {
+	 border-collapse: collapse;
+}
+.exit{
+	text-align:right;
+}

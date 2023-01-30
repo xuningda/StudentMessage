@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body {
+	background:url(images/8.jpg);
+	background-repeat:no-repeat;
+	 background-size: cover;
+}
+form {
+	align:center;
+}
+
+.loginbox{
+	display: flow-root;
+    position: relative;
+    left: 50%;
+    width: 400px;
+    height: 500px;
+    margin-top: 35px;
+    transform: translateX(-50%);
+    transform-style: preserve-3d;
+     border-radius:30px;
+}
+
+.content {
+	background:url(images/15.jpg);
+	background-repeat:no-repeat;
+	 background-size: cover;
+	 border-radius:30px;
+	text-align:center;
+	width:510px;
+	height:400px;
+	padding-top:30px;
+
+}
+
+.content h2 {
+	
+	
+}
+input {
+    width: 200px;
+    height: 26px;
+    margin: 5px;
+    background-color:white;
+    text-indent: 1em; 
+}
+
+a{
+	color:red;
+}
